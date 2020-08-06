@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+ 
+}
+.container{
+    width: 90%;
+    margin: 0.5%;
+    
+}
+header{
+    height: 120vh;
+    background-image: url(../images/FB_IMG_1575114822183.jpg);
+    background-size: 100% 100%;
+}
+header .container{
+    padding-top: 1.5em;
+}
+header h1 {
+    font-variant: small-caps;
+    display: inline-block;
+    width: 50%;
+    color: white;
+    font-size: 4em;
+}
+header nav{
+    display: inline-block;
+    width: 46%;
+}
+header nav ul{
+    margin-top: 1%;
+}
+header nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 1.5em;
+}
+header nav ul li a{
+   
+    color: white;
+    font-size: 1.3em;
+}
+header nav input{
+    margin-left: 20%;
+    height: 2.5em;
+    width: 20em;
+    background-color: transparent;
+    border-radius: 5em;
+    padding: 12px;
+}
+/*end header section*/
+/* start contact us*/
+#contact{
+    background-color: #e7e7e7;
+
+}
+#contact .container{
+    display: flex;
+    padding: 2em;
+}
+#contact .container article{
+    flex-basis: 70%;
+    font-size: 2em;
+    color: #1f222c;
+}
+#contact .container button{
+    flex-basis: 28%;
+    background-color: #1f232c;
+    color: white;
+    font-size: 2em;
+    border-radius: 2em;
+}
+
+/*end contact us*/
+/*start service*/
+#services{
+margin: 5% 0 3% 5%;
+}
+#services .container{
+display: flex;    
+}
+#services .container .single-service{
+    flex-basis: 30%;
+    display: flex;
+}
+#services .container .single-service img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin-right: 4%;
+}
+#service .container .single-service p{
+    font-size: 1em;
+    font-weight: lighter;
+}
+#services .container .single-service h2{
+    font-size: 2em;
+    text-decoration: underline;
+}
+/*end sevice*/
+
+/*start facilies*/
+#facilies .container .line{
+    border: 2px solid black;
+    width: 40%;
+    height: 0;
+}
+#facilies .container h2{
+    padding: 5px 10px;
+}
+.facilies-title{
+    display: flex;
+    align-items: center;
+}
+/*end facilies*/
+#facilies .container .single-fac{
+    display: inline-block;
+    width: 30%;\
+    margin: 1.5%;
+    background-color: rosybrown;
+}
+#facilies .container .single-fac img{
+    width: 100%;
+    height: 170px;
+
+}
+#facilies .container .single-fac h3{
+    text-align: center;
+    padding: 5px;
+    font-size: 1.4em;
+}
+#facilies .container .single-fac p{
+    text-align: center;
+    padding: 5px;
+    font-size: 1em
+    font-weight: lighter;    
+}
+/* start footer*/
+footer{
+  padding: 1% 5%;
+  background-color: antiquewhite;
+    display: flex;
+}
+footer article{
+    flex-basis: 25%;
+}
+footer h3{
+    padding: 0.4em 0;
+    font-size: 1.5em;
+}
+#contact-us p{
+    line-height: 1.4em;
+}
+footer #qlink a{
+    font-size: 1em;
+}
+#qlink hr {
+    /*height: 0.5em;*/
+    color: dimgray;
+    /*padding: 0.7em 0;*/
+    width: 100%;
+    border: 1.5pxsolid gray;
+    margin: 0.7em 0;
+}
+#blog-simple{
+    padding: 0 1.5em;
+}
+#blog-simple h4{
+    font-size: 1.2em;
+}
+#blog-simple span{
+    font-weight: lighter;
+    font-size: 1em;
+}
+#blog-simple a{
+    float: right;
+    padding: 2% 10%;
+}
+#contact-form form input{
+    width: 80%;
+    margin: 2% 0;
+    display: inline-block;
+    height: 2em;
+    padding: 2%;
+    border-radius: 1em;
+    border: 1px solid;
+}
+#contact-form form input[type="submit"]{
+    background-color: dimgray;
+    color: white;
+    width: 40%;
+    height: 3em;
+    font-size: 1.1em;
+}
+#mini-footer{
+    background-color: #1f232c;
+    height: 3em;
+}
+#mini-footer div{
+    color: white;
+    padding-top: 1%;
+}
+@media(max-width:600px){
+    #facilies .container .single-fac{
+        width: 46%;
+    }
+}
+@media (min-width:0px) and (max-width:330px){
+    
+}
+@media (min-width:331px) and (max-width:576px){
+    
+}
+
+@media (min-width:577px) and (max-width:992px){
+    
+}
+@media (min-width:993px) and (max-width:1200px){
+    
+}
+@media (min-width:1200px){
+    
+}
+
+
+
+
+3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
